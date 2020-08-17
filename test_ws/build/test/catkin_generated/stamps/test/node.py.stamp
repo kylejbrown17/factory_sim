@@ -1,17 +1,19 @@
 #!/usr/bin/env python
 
-# Model command centre node
-
 import rospy
+from test.msg import *
 from std_msgs.msg import String
 
-# Receives notification from robot
 def callback(data):
     global pub
-    rospy.loginfo(rospy.get_caller_id() + 'Received notification: %s', data.data)
-    pub.publish('New plan')
-
+    rospy.loginfo(rospy.get_caller_id() + 'Received notification: %s', data.message)
+    
+    # Construct message to send to bot
+    messageToBot = MsgToBot()
+    messageToBot.message = "New plan from centre"
+    pub.publish(messageToBot)
+    
 rospy.init_node('commandcentre', anonymous=True)
-pub = rospy.Publisher('centretobot', String, queue_size=10)
-rospy.Subscriber("bottocentre", String, callback)
+pub = rospy.Publisher("centretobot", MsgToBot, queue_size=10)
+rospy.Subscriber("bottocentre", MsgToCentre, callback)
 rospy.spin()

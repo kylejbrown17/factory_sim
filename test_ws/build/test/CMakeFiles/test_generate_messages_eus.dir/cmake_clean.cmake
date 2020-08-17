@@ -1,11 +1,13 @@
 file(REMOVE_RECURSE
   "CMakeFiles/test_generate_messages_eus"
   "/home/nbhak/Desktop/test_ws/devel/share/roseus/ros/test/msg/RadarTarget.l"
+  "/home/nbhak/Desktop/test_ws/devel/share/roseus/ros/test/msg/MsgToCentre.l"
   "/home/nbhak/Desktop/test_ws/devel/share/roseus/ros/test/msg/RecognitionObject.l"
   "/home/nbhak/Desktop/test_ws/devel/share/roseus/ros/test/msg/Int8Stamped.l"
   "/home/nbhak/Desktop/test_ws/devel/share/roseus/ros/test/msg/Float64Stamped.l"
   "/home/nbhak/Desktop/test_ws/devel/share/roseus/ros/test/msg/StringStamped.l"
   "/home/nbhak/Desktop/test_ws/devel/share/roseus/ros/test/msg/BoolStamped.l"
+  "/home/nbhak/Desktop/test_ws/devel/share/roseus/ros/test/msg/MsgToBot.l"
   "/home/nbhak/Desktop/test_ws/devel/share/roseus/ros/test/msg/Int32Stamped.l"
   "/home/nbhak/Desktop/test_ws/devel/share/roseus/ros/test/srv/skin_set_bone_position.l"
   "/home/nbhak/Desktop/test_ws/devel/share/roseus/ros/test/srv/field_remove_node.l"

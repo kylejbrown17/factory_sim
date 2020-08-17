@@ -29,6 +29,8 @@ find_package(catkin REQUIRED COMPONENTS roscpp rospy std_msgs sensor_msgs messag
     RadarTarget.msg
     RecognitionObject.msg
     StringStamped.msg
+    MsgToBot.msg
+    MsgToCentre.msg
   )
 
 ## Generate services in the 'srv' folder

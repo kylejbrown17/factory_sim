@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.cmake.em
 
-message(STATUS "test: 7 messages, 101 services")
+message(STATUS "test: 9 messages, 101 services")
 
 set(MSG_I_FLAGS "-Itest:/home/nbhak/Desktop/test_ws/src/test/msg;-Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg;-Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg")
 
@@ -397,6 +397,11 @@ add_custom_target(_test_generate_messages_check_deps_${_filename}
   COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "test" "/home/nbhak/Desktop/test_ws/src/test/srv/field_set_rotation.srv" "geometry_msgs/Quaternion"
 )
 
+get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/msg/MsgToBot.msg" NAME_WE)
+add_custom_target(_test_generate_messages_check_deps_${_filename}
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "test" "/home/nbhak/Desktop/test_ws/src/test/msg/MsgToBot.msg" ""
+)
+
 get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/srv/display_draw_polygon.srv" NAME_WE)
 add_custom_target(_test_generate_messages_check_deps_${_filename}
   COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "test" "/home/nbhak/Desktop/test_ws/src/test/srv/display_draw_polygon.srv" ""
@@ -470,6 +475,11 @@ add_custom_target(_test_generate_messages_check_deps_${_filename}
 get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/srv/display_image_save.srv" NAME_WE)
 add_custom_target(_test_generate_messages_check_deps_${_filename}
   COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "test" "/home/nbhak/Desktop/test_ws/src/test/srv/display_image_save.srv" ""
+)
+
+get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/msg/MsgToCentre.msg" NAME_WE)
+add_custom_target(_test_generate_messages_check_deps_${_filename}
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "test" "/home/nbhak/Desktop/test_ws/src/test/msg/MsgToCentre.msg" ""
 )
 
 get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/srv/camera_get_focus_info.srv" NAME_WE)
@@ -570,6 +580,12 @@ _generate_msg_cpp(test
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/test
 )
 _generate_msg_cpp(test
+  "/home/nbhak/Desktop/test_ws/src/test/msg/MsgToCentre.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/test
+)
+_generate_msg_cpp(test
   "/home/nbhak/Desktop/test_ws/src/test/msg/RecognitionObject.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
@@ -597,6 +613,12 @@ _generate_msg_cpp(test
   "/home/nbhak/Desktop/test_ws/src/test/msg/BoolStamped.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/test
+)
+_generate_msg_cpp(test
+  "/home/nbhak/Desktop/test_ws/src/test/msg/MsgToBot.msg"
+  "${MSG_I_FLAGS}"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/test
 )
 _generate_msg_cpp(test
@@ -1378,6 +1400,8 @@ get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/srv/node_
 add_dependencies(test_generate_messages_cpp _test_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/srv/field_set_rotation.srv" NAME_WE)
 add_dependencies(test_generate_messages_cpp _test_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/msg/MsgToBot.msg" NAME_WE)
+add_dependencies(test_generate_messages_cpp _test_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/srv/display_draw_polygon.srv" NAME_WE)
 add_dependencies(test_generate_messages_cpp _test_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/srv/get_string.srv" NAME_WE)
@@ -1407,6 +1431,8 @@ add_dependencies(test_generate_messages_cpp _test_generate_messages_check_deps_$
 get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/srv/get_bool.srv" NAME_WE)
 add_dependencies(test_generate_messages_cpp _test_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/srv/display_image_save.srv" NAME_WE)
+add_dependencies(test_generate_messages_cpp _test_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/msg/MsgToCentre.msg" NAME_WE)
 add_dependencies(test_generate_messages_cpp _test_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/srv/camera_get_focus_info.srv" NAME_WE)
 add_dependencies(test_generate_messages_cpp _test_generate_messages_check_deps_${_filename})
@@ -1459,6 +1485,12 @@ _generate_msg_eus(test
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/test
 )
 _generate_msg_eus(test
+  "/home/nbhak/Desktop/test_ws/src/test/msg/MsgToCentre.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/test
+)
+_generate_msg_eus(test
   "/home/nbhak/Desktop/test_ws/src/test/msg/RecognitionObject.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
@@ -1486,6 +1518,12 @@ _generate_msg_eus(test
   "/home/nbhak/Desktop/test_ws/src/test/msg/BoolStamped.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/test
+)
+_generate_msg_eus(test
+  "/home/nbhak/Desktop/test_ws/src/test/msg/MsgToBot.msg"
+  "${MSG_I_FLAGS}"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/test
 )
 _generate_msg_eus(test
@@ -2267,6 +2305,8 @@ get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/srv/node_
 add_dependencies(test_generate_messages_eus _test_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/srv/field_set_rotation.srv" NAME_WE)
 add_dependencies(test_generate_messages_eus _test_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/msg/MsgToBot.msg" NAME_WE)
+add_dependencies(test_generate_messages_eus _test_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/srv/display_draw_polygon.srv" NAME_WE)
 add_dependencies(test_generate_messages_eus _test_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/srv/get_string.srv" NAME_WE)
@@ -2296,6 +2336,8 @@ add_dependencies(test_generate_messages_eus _test_generate_messages_check_deps_$
 get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/srv/get_bool.srv" NAME_WE)
 add_dependencies(test_generate_messages_eus _test_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/srv/display_image_save.srv" NAME_WE)
+add_dependencies(test_generate_messages_eus _test_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/msg/MsgToCentre.msg" NAME_WE)
 add_dependencies(test_generate_messages_eus _test_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/srv/camera_get_focus_info.srv" NAME_WE)
 add_dependencies(test_generate_messages_eus _test_generate_messages_check_deps_${_filename})
@@ -2348,6 +2390,12 @@ _generate_msg_lisp(test
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/test
 )
 _generate_msg_lisp(test
+  "/home/nbhak/Desktop/test_ws/src/test/msg/MsgToCentre.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/test
+)
+_generate_msg_lisp(test
   "/home/nbhak/Desktop/test_ws/src/test/msg/RecognitionObject.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
@@ -2375,6 +2423,12 @@ _generate_msg_lisp(test
   "/home/nbhak/Desktop/test_ws/src/test/msg/BoolStamped.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/test
+)
+_generate_msg_lisp(test
+  "/home/nbhak/Desktop/test_ws/src/test/msg/MsgToBot.msg"
+  "${MSG_I_FLAGS}"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/test
 )
 _generate_msg_lisp(test
@@ -3156,6 +3210,8 @@ get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/srv/node_
 add_dependencies(test_generate_messages_lisp _test_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/srv/field_set_rotation.srv" NAME_WE)
 add_dependencies(test_generate_messages_lisp _test_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/msg/MsgToBot.msg" NAME_WE)
+add_dependencies(test_generate_messages_lisp _test_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/srv/display_draw_polygon.srv" NAME_WE)
 add_dependencies(test_generate_messages_lisp _test_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/srv/get_string.srv" NAME_WE)
@@ -3185,6 +3241,8 @@ add_dependencies(test_generate_messages_lisp _test_generate_messages_check_deps_
 get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/srv/get_bool.srv" NAME_WE)
 add_dependencies(test_generate_messages_lisp _test_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/srv/display_image_save.srv" NAME_WE)
+add_dependencies(test_generate_messages_lisp _test_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/msg/MsgToCentre.msg" NAME_WE)
 add_dependencies(test_generate_messages_lisp _test_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/srv/camera_get_focus_info.srv" NAME_WE)
 add_dependencies(test_generate_messages_lisp _test_generate_messages_check_deps_${_filename})
@@ -3237,6 +3295,12 @@ _generate_msg_nodejs(test
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/test
 )
 _generate_msg_nodejs(test
+  "/home/nbhak/Desktop/test_ws/src/test/msg/MsgToCentre.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/test
+)
+_generate_msg_nodejs(test
   "/home/nbhak/Desktop/test_ws/src/test/msg/RecognitionObject.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
@@ -3264,6 +3328,12 @@ _generate_msg_nodejs(test
   "/home/nbhak/Desktop/test_ws/src/test/msg/BoolStamped.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/test
+)
+_generate_msg_nodejs(test
+  "/home/nbhak/Desktop/test_ws/src/test/msg/MsgToBot.msg"
+  "${MSG_I_FLAGS}"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/test
 )
 _generate_msg_nodejs(test
@@ -4045,6 +4115,8 @@ get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/srv/node_
 add_dependencies(test_generate_messages_nodejs _test_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/srv/field_set_rotation.srv" NAME_WE)
 add_dependencies(test_generate_messages_nodejs _test_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/msg/MsgToBot.msg" NAME_WE)
+add_dependencies(test_generate_messages_nodejs _test_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/srv/display_draw_polygon.srv" NAME_WE)
 add_dependencies(test_generate_messages_nodejs _test_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/srv/get_string.srv" NAME_WE)
@@ -4074,6 +4146,8 @@ add_dependencies(test_generate_messages_nodejs _test_generate_messages_check_dep
 get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/srv/get_bool.srv" NAME_WE)
 add_dependencies(test_generate_messages_nodejs _test_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/srv/display_image_save.srv" NAME_WE)
+add_dependencies(test_generate_messages_nodejs _test_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/msg/MsgToCentre.msg" NAME_WE)
 add_dependencies(test_generate_messages_nodejs _test_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/srv/camera_get_focus_info.srv" NAME_WE)
 add_dependencies(test_generate_messages_nodejs _test_generate_messages_check_deps_${_filename})
@@ -4126,6 +4200,12 @@ _generate_msg_py(test
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/test
 )
 _generate_msg_py(test
+  "/home/nbhak/Desktop/test_ws/src/test/msg/MsgToCentre.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/test
+)
+_generate_msg_py(test
   "/home/nbhak/Desktop/test_ws/src/test/msg/RecognitionObject.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
@@ -4153,6 +4233,12 @@ _generate_msg_py(test
   "/home/nbhak/Desktop/test_ws/src/test/msg/BoolStamped.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/test
+)
+_generate_msg_py(test
+  "/home/nbhak/Desktop/test_ws/src/test/msg/MsgToBot.msg"
+  "${MSG_I_FLAGS}"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/test
 )
 _generate_msg_py(test
@@ -4934,6 +5020,8 @@ get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/srv/node_
 add_dependencies(test_generate_messages_py _test_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/srv/field_set_rotation.srv" NAME_WE)
 add_dependencies(test_generate_messages_py _test_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/msg/MsgToBot.msg" NAME_WE)
+add_dependencies(test_generate_messages_py _test_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/srv/display_draw_polygon.srv" NAME_WE)
 add_dependencies(test_generate_messages_py _test_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/srv/get_string.srv" NAME_WE)
@@ -4963,6 +5051,8 @@ add_dependencies(test_generate_messages_py _test_generate_messages_check_deps_${
 get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/srv/get_bool.srv" NAME_WE)
 add_dependencies(test_generate_messages_py _test_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/srv/display_image_save.srv" NAME_WE)
+add_dependencies(test_generate_messages_py _test_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/msg/MsgToCentre.msg" NAME_WE)
 add_dependencies(test_generate_messages_py _test_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/nbhak/Desktop/test_ws/src/test/srv/camera_get_focus_info.srv" NAME_WE)
 add_dependencies(test_generate_messages_py _test_generate_messages_check_deps_${_filename})

@@ -1,11 +1,13 @@
 file(REMOVE_RECURSE
   "CMakeFiles/test_generate_messages_nodejs"
   "/home/nbhak/Desktop/test_ws/devel/share/gennodejs/ros/test/msg/RadarTarget.js"
+  "/home/nbhak/Desktop/test_ws/devel/share/gennodejs/ros/test/msg/MsgToCentre.js"
   "/home/nbhak/Desktop/test_ws/devel/share/gennodejs/ros/test/msg/RecognitionObject.js"
   "/home/nbhak/Desktop/test_ws/devel/share/gennodejs/ros/test/msg/Int8Stamped.js"
   "/home/nbhak/Desktop/test_ws/devel/share/gennodejs/ros/test/msg/Float64Stamped.js"
   "/home/nbhak/Desktop/test_ws/devel/share/gennodejs/ros/test/msg/StringStamped.js"
   "/home/nbhak/Desktop/test_ws/devel/share/gennodejs/ros/test/msg/BoolStamped.js"
+  "/home/nbhak/Desktop/test_ws/devel/share/gennodejs/ros/test/msg/MsgToBot.js"
   "/home/nbhak/Desktop/test_ws/devel/share/gennodejs/ros/test/msg/Int32Stamped.js"
   "/home/nbhak/Desktop/test_ws/devel/share/gennodejs/ros/test/srv/skin_set_bone_position.js"
   "/home/nbhak/Desktop/test_ws/devel/share/gennodejs/ros/test/srv/field_remove_node.js"

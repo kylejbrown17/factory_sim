@@ -41,6 +41,8 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     "/home/nbhak/Desktop/test_ws/src/test/msg/RadarTarget.msg"
     "/home/nbhak/Desktop/test_ws/src/test/msg/RecognitionObject.msg"
     "/home/nbhak/Desktop/test_ws/src/test/msg/StringStamped.msg"
+    "/home/nbhak/Desktop/test_ws/src/test/msg/MsgToBot.msg"
+    "/home/nbhak/Desktop/test_ws/src/test/msg/MsgToCentre.msg"
     )
 endif()
 

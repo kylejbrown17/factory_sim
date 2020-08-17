@@ -1,11 +1,13 @@
 file(REMOVE_RECURSE
   "CMakeFiles/test_generate_messages_cpp"
   "/home/nbhak/Desktop/test_ws/devel/include/test/RadarTarget.h"
+  "/home/nbhak/Desktop/test_ws/devel/include/test/MsgToCentre.h"
   "/home/nbhak/Desktop/test_ws/devel/include/test/RecognitionObject.h"
   "/home/nbhak/Desktop/test_ws/devel/include/test/Int8Stamped.h"
   "/home/nbhak/Desktop/test_ws/devel/include/test/Float64Stamped.h"
   "/home/nbhak/Desktop/test_ws/devel/include/test/StringStamped.h"
   "/home/nbhak/Desktop/test_ws/devel/include/test/BoolStamped.h"
+  "/home/nbhak/Desktop/test_ws/devel/include/test/MsgToBot.h"
   "/home/nbhak/Desktop/test_ws/devel/include/test/Int32Stamped.h"
   "/home/nbhak/Desktop/test_ws/devel/include/test/skin_set_bone_position.h"
   "/home/nbhak/Desktop/test_ws/devel/include/test/field_remove_node.h"

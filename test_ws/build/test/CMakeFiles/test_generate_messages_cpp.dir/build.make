@@ -54,11 +54,13 @@ CMAKE_BINARY_DIR = /home/nbhak/Desktop/test_ws/build
 include test/CMakeFiles/test_generate_messages_cpp.dir/progress.make
 
 test/CMakeFiles/test_generate_messages_cpp: /home/nbhak/Desktop/test_ws/devel/include/test/RadarTarget.h
+test/CMakeFiles/test_generate_messages_cpp: /home/nbhak/Desktop/test_ws/devel/include/test/MsgToCentre.h
 test/CMakeFiles/test_generate_messages_cpp: /home/nbhak/Desktop/test_ws/devel/include/test/RecognitionObject.h
 test/CMakeFiles/test_generate_messages_cpp: /home/nbhak/Desktop/test_ws/devel/include/test/Int8Stamped.h
 test/CMakeFiles/test_generate_messages_cpp: /home/nbhak/Desktop/test_ws/devel/include/test/Float64Stamped.h
 test/CMakeFiles/test_generate_messages_cpp: /home/nbhak/Desktop/test_ws/devel/include/test/StringStamped.h
 test/CMakeFiles/test_generate_messages_cpp: /home/nbhak/Desktop/test_ws/devel/include/test/BoolStamped.h
+test/CMakeFiles/test_generate_messages_cpp: /home/nbhak/Desktop/test_ws/devel/include/test/MsgToBot.h
 test/CMakeFiles/test_generate_messages_cpp: /home/nbhak/Desktop/test_ws/devel/include/test/Int32Stamped.h
 test/CMakeFiles/test_generate_messages_cpp: /home/nbhak/Desktop/test_ws/devel/include/test/skin_set_bone_position.h
 test/CMakeFiles/test_generate_messages_cpp: /home/nbhak/Desktop/test_ws/devel/include/test/field_remove_node.h
@@ -170,48 +172,60 @@ test/CMakeFiles/test_generate_messages_cpp: /home/nbhak/Desktop/test_ws/devel/in
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from test/RadarTarget.msg"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/msg/RadarTarget.msg -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
+/home/nbhak/Desktop/test_ws/devel/include/test/MsgToCentre.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/nbhak/Desktop/test_ws/devel/include/test/MsgToCentre.h: /home/nbhak/Desktop/test_ws/src/test/msg/MsgToCentre.msg
+/home/nbhak/Desktop/test_ws/devel/include/test/MsgToCentre.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from test/MsgToCentre.msg"
+	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/msg/MsgToCentre.msg -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
+
 /home/nbhak/Desktop/test_ws/devel/include/test/RecognitionObject.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/RecognitionObject.h: /home/nbhak/Desktop/test_ws/src/test/msg/RecognitionObject.msg
 /home/nbhak/Desktop/test_ws/devel/include/test/RecognitionObject.h: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
 /home/nbhak/Desktop/test_ws/devel/include/test/RecognitionObject.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
 /home/nbhak/Desktop/test_ws/devel/include/test/RecognitionObject.h: /opt/ros/kinetic/share/geometry_msgs/msg/Vector3.msg
 /home/nbhak/Desktop/test_ws/devel/include/test/RecognitionObject.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from test/RecognitionObject.msg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from test/RecognitionObject.msg"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/msg/RecognitionObject.msg -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/Int8Stamped.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/Int8Stamped.h: /home/nbhak/Desktop/test_ws/src/test/msg/Int8Stamped.msg
 /home/nbhak/Desktop/test_ws/devel/include/test/Int8Stamped.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
 /home/nbhak/Desktop/test_ws/devel/include/test/Int8Stamped.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from test/Int8Stamped.msg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from test/Int8Stamped.msg"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/msg/Int8Stamped.msg -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/Float64Stamped.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/Float64Stamped.h: /home/nbhak/Desktop/test_ws/src/test/msg/Float64Stamped.msg
 /home/nbhak/Desktop/test_ws/devel/include/test/Float64Stamped.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
 /home/nbhak/Desktop/test_ws/devel/include/test/Float64Stamped.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from test/Float64Stamped.msg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from test/Float64Stamped.msg"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/msg/Float64Stamped.msg -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/StringStamped.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/StringStamped.h: /home/nbhak/Desktop/test_ws/src/test/msg/StringStamped.msg
 /home/nbhak/Desktop/test_ws/devel/include/test/StringStamped.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
 /home/nbhak/Desktop/test_ws/devel/include/test/StringStamped.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from test/StringStamped.msg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from test/StringStamped.msg"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/msg/StringStamped.msg -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/BoolStamped.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/BoolStamped.h: /home/nbhak/Desktop/test_ws/src/test/msg/BoolStamped.msg
 /home/nbhak/Desktop/test_ws/devel/include/test/BoolStamped.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
 /home/nbhak/Desktop/test_ws/devel/include/test/BoolStamped.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from test/BoolStamped.msg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating C++ code from test/BoolStamped.msg"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/msg/BoolStamped.msg -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
+
+/home/nbhak/Desktop/test_ws/devel/include/test/MsgToBot.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/nbhak/Desktop/test_ws/devel/include/test/MsgToBot.h: /home/nbhak/Desktop/test_ws/src/test/msg/MsgToBot.msg
+/home/nbhak/Desktop/test_ws/devel/include/test/MsgToBot.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating C++ code from test/MsgToBot.msg"
+	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/msg/MsgToBot.msg -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/Int32Stamped.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/Int32Stamped.h: /home/nbhak/Desktop/test_ws/src/test/msg/Int32Stamped.msg
 /home/nbhak/Desktop/test_ws/devel/include/test/Int32Stamped.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
 /home/nbhak/Desktop/test_ws/devel/include/test/Int32Stamped.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating C++ code from test/Int32Stamped.msg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating C++ code from test/Int32Stamped.msg"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/msg/Int32Stamped.msg -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/skin_set_bone_position.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
@@ -219,63 +233,63 @@ test/CMakeFiles/test_generate_messages_cpp: /home/nbhak/Desktop/test_ws/devel/in
 /home/nbhak/Desktop/test_ws/devel/include/test/skin_set_bone_position.h: /opt/ros/kinetic/share/geometry_msgs/msg/Vector3.msg
 /home/nbhak/Desktop/test_ws/devel/include/test/skin_set_bone_position.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/skin_set_bone_position.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating C++ code from test/skin_set_bone_position.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating C++ code from test/skin_set_bone_position.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/skin_set_bone_position.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/field_remove_node.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/field_remove_node.h: /home/nbhak/Desktop/test_ws/src/test/srv/field_remove_node.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/field_remove_node.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/field_remove_node.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating C++ code from test/field_remove_node.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating C++ code from test/field_remove_node.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/field_remove_node.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/set_int.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/set_int.h: /home/nbhak/Desktop/test_ws/src/test/srv/set_int.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/set_int.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/set_int.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating C++ code from test/set_int.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating C++ code from test/set_int.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/set_int.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/display_image_load.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/display_image_load.h: /home/nbhak/Desktop/test_ws/src/test/srv/display_image_load.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/display_image_load.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/display_image_load.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating C++ code from test/display_image_load.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating C++ code from test/display_image_load.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/display_image_load.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/get_uint64.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/get_uint64.h: /home/nbhak/Desktop/test_ws/src/test/srv/get_uint64.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/get_uint64.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/get_uint64.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating C++ code from test/get_uint64.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating C++ code from test/get_uint64.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/get_uint64.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_id.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_id.h: /home/nbhak/Desktop/test_ws/src/test/srv/node_get_id.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_id.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_id.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating C++ code from test/node_get_id.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating C++ code from test/node_get_id.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/node_get_id.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/field_import_node_from_string.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/field_import_node_from_string.h: /home/nbhak/Desktop/test_ws/src/test/srv/field_import_node_from_string.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/field_import_node_from_string.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/field_import_node_from_string.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating C++ code from test/field_import_node_from_string.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating C++ code from test/field_import_node_from_string.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/field_import_node_from_string.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/display_set_font.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/display_set_font.h: /home/nbhak/Desktop/test_ws/src/test/srv/display_set_font.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/display_set_font.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/display_set_font.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating C++ code from test/display_set_font.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating C++ code from test/display_set_font.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/display_set_font.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/display_draw_rectangle.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/display_draw_rectangle.h: /home/nbhak/Desktop/test_ws/src/test/srv/display_draw_rectangle.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/display_draw_rectangle.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/display_draw_rectangle.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating C++ code from test/display_draw_rectangle.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating C++ code from test/display_draw_rectangle.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/display_draw_rectangle.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/skin_get_bone_orientation.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
@@ -283,7 +297,7 @@ test/CMakeFiles/test_generate_messages_cpp: /home/nbhak/Desktop/test_ws/devel/in
 /home/nbhak/Desktop/test_ws/devel/include/test/skin_get_bone_orientation.h: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
 /home/nbhak/Desktop/test_ws/devel/include/test/skin_get_bone_orientation.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/skin_get_bone_orientation.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating C++ code from test/skin_get_bone_orientation.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating C++ code from test/skin_get_bone_orientation.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/skin_get_bone_orientation.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/field_get_vec3f.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
@@ -291,49 +305,49 @@ test/CMakeFiles/test_generate_messages_cpp: /home/nbhak/Desktop/test_ws/devel/in
 /home/nbhak/Desktop/test_ws/devel/include/test/field_get_vec3f.h: /opt/ros/kinetic/share/geometry_msgs/msg/Vector3.msg
 /home/nbhak/Desktop/test_ws/devel/include/test/field_get_vec3f.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/field_get_vec3f.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating C++ code from test/field_get_vec3f.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating C++ code from test/field_get_vec3f.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/field_get_vec3f.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/set_bool.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/set_bool.h: /home/nbhak/Desktop/test_ws/src/test/srv/set_bool.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/set_bool.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/set_bool.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating C++ code from test/set_bool.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating C++ code from test/set_bool.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/set_bool.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/set_float_array.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/set_float_array.h: /home/nbhak/Desktop/test_ws/src/test/srv/set_float_array.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/set_float_array.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/set_float_array.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating C++ code from test/set_float_array.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating C++ code from test/set_float_array.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/set_float_array.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/display_draw_oval.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/display_draw_oval.h: /home/nbhak/Desktop/test_ws/src/test/srv/display_draw_oval.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/display_draw_oval.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/display_draw_oval.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating C++ code from test/display_draw_oval.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating C++ code from test/display_draw_oval.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/display_draw_oval.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/field_get_int32.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/field_get_int32.h: /home/nbhak/Desktop/test_ws/src/test/srv/field_get_int32.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/field_get_int32.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/field_get_int32.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating C++ code from test/field_get_int32.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating C++ code from test/field_get_int32.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/field_get_int32.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/camera_get_zoom_info.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/camera_get_zoom_info.h: /home/nbhak/Desktop/test_ws/src/test/srv/camera_get_zoom_info.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/camera_get_zoom_info.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/camera_get_zoom_info.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating C++ code from test/camera_get_zoom_info.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating C++ code from test/camera_get_zoom_info.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/camera_get_zoom_info.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/receiver_get_emitter_direction.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/receiver_get_emitter_direction.h: /home/nbhak/Desktop/test_ws/src/test/srv/receiver_get_emitter_direction.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/receiver_get_emitter_direction.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/receiver_get_emitter_direction.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating C++ code from test/receiver_get_emitter_direction.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating C++ code from test/receiver_get_emitter_direction.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/receiver_get_emitter_direction.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_velocity.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
@@ -342,7 +356,7 @@ test/CMakeFiles/test_generate_messages_cpp: /home/nbhak/Desktop/test_ws/devel/in
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_velocity.h: /opt/ros/kinetic/share/geometry_msgs/msg/Vector3.msg
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_velocity.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_velocity.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating C++ code from test/node_get_velocity.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating C++ code from test/node_get_velocity.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/node_get_velocity.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/field_set_color.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
@@ -350,28 +364,28 @@ test/CMakeFiles/test_generate_messages_cpp: /home/nbhak/Desktop/test_ws/devel/in
 /home/nbhak/Desktop/test_ws/devel/include/test/field_set_color.h: /opt/ros/kinetic/share/std_msgs/msg/ColorRGBA.msg
 /home/nbhak/Desktop/test_ws/devel/include/test/field_set_color.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/field_set_color.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating C++ code from test/field_set_color.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating C++ code from test/field_set_color.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/field_set_color.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/set_float.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/set_float.h: /home/nbhak/Desktop/test_ws/src/test/srv/set_float.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/set_float.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/set_float.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating C++ code from test/set_float.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating C++ code from test/set_float.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/set_float.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_number_of_contact_points.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_number_of_contact_points.h: /home/nbhak/Desktop/test_ws/src/test/srv/node_get_number_of_contact_points.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_number_of_contact_points.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_number_of_contact_points.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating C++ code from test/node_get_number_of_contact_points.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating C++ code from test/node_get_number_of_contact_points.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/node_get_number_of_contact_points.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/field_get_float.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/field_get_float.h: /home/nbhak/Desktop/test_ws/src/test/srv/field_get_float.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/field_get_float.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/field_get_float.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating C++ code from test/field_get_float.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating C++ code from test/field_get_float.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/field_get_float.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_center_of_mass.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
@@ -379,21 +393,21 @@ test/CMakeFiles/test_generate_messages_cpp: /home/nbhak/Desktop/test_ws/devel/in
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_center_of_mass.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_center_of_mass.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_center_of_mass.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating C++ code from test/node_get_center_of_mass.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating C++ code from test/node_get_center_of_mass.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/node_get_center_of_mass.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/node_reset_functions.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/node_reset_functions.h: /home/nbhak/Desktop/test_ws/src/test/srv/node_reset_functions.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/node_reset_functions.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/node_reset_functions.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating C++ code from test/node_reset_functions.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Generating C++ code from test/node_reset_functions.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/node_reset_functions.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/mouse_get_state.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/mouse_get_state.h: /home/nbhak/Desktop/test_ws/src/test/srv/mouse_get_state.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/mouse_get_state.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/mouse_get_state.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating C++ code from test/mouse_get_state.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Generating C++ code from test/mouse_get_state.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/mouse_get_state.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/field_set_vec3f.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
@@ -401,7 +415,7 @@ test/CMakeFiles/test_generate_messages_cpp: /home/nbhak/Desktop/test_ws/devel/in
 /home/nbhak/Desktop/test_ws/devel/include/test/field_set_vec3f.h: /opt/ros/kinetic/share/geometry_msgs/msg/Vector3.msg
 /home/nbhak/Desktop/test_ws/devel/include/test/field_set_vec3f.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/field_set_vec3f.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Generating C++ code from test/field_set_vec3f.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating C++ code from test/field_set_vec3f.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/field_set_vec3f.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_contact_point.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
@@ -409,35 +423,35 @@ test/CMakeFiles/test_generate_messages_cpp: /home/nbhak/Desktop/test_ws/devel/in
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_contact_point.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_contact_point.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_contact_point.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Generating C++ code from test/node_get_contact_point.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Generating C++ code from test/node_get_contact_point.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/node_get_contact_point.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/camera_get_info.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/camera_get_info.h: /home/nbhak/Desktop/test_ws/src/test/srv/camera_get_info.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/camera_get_info.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/camera_get_info.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating C++ code from test/camera_get_info.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Generating C++ code from test/camera_get_info.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/camera_get_info.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/get_int.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/get_int.h: /home/nbhak/Desktop/test_ws/src/test/srv/get_int.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/get_int.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/get_int.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Generating C++ code from test/get_int.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Generating C++ code from test/get_int.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/get_int.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/get_float_array.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/get_float_array.h: /home/nbhak/Desktop/test_ws/src/test/srv/get_float_array.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/get_float_array.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/get_float_array.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Generating C++ code from test/get_float_array.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating C++ code from test/get_float_array.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/get_float_array.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/lidar_get_info.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/lidar_get_info.h: /home/nbhak/Desktop/test_ws/src/test/srv/lidar_get_info.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/lidar_get_info.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/lidar_get_info.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Generating C++ code from test/lidar_get_info.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Generating C++ code from test/lidar_get_info.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/lidar_get_info.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/lidar_get_layer_point_cloud.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
@@ -448,14 +462,14 @@ test/CMakeFiles/test_generate_messages_cpp: /home/nbhak/Desktop/test_ws/devel/in
 /home/nbhak/Desktop/test_ws/devel/include/test/lidar_get_layer_point_cloud.h: /opt/ros/kinetic/share/sensor_msgs/msg/ChannelFloat32.msg
 /home/nbhak/Desktop/test_ws/devel/include/test/lidar_get_layer_point_cloud.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/lidar_get_layer_point_cloud.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating C++ code from test/lidar_get_layer_point_cloud.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Generating C++ code from test/lidar_get_layer_point_cloud.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/lidar_get_layer_point_cloud.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/set_string.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/set_string.h: /home/nbhak/Desktop/test_ws/src/test/srv/set_string.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/set_string.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/set_string.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Generating C++ code from test/set_string.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Generating C++ code from test/set_string.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/set_string.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/supervisor_virtual_reality_headset_get_position.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
@@ -463,21 +477,21 @@ test/CMakeFiles/test_generate_messages_cpp: /home/nbhak/Desktop/test_ws/devel/in
 /home/nbhak/Desktop/test_ws/devel/include/test/supervisor_virtual_reality_headset_get_position.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
 /home/nbhak/Desktop/test_ws/devel/include/test/supervisor_virtual_reality_headset_get_position.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/supervisor_virtual_reality_headset_get_position.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Generating C++ code from test/supervisor_virtual_reality_headset_get_position.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Generating C++ code from test/supervisor_virtual_reality_headset_get_position.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/supervisor_virtual_reality_headset_get_position.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/field_get_string.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/field_get_string.h: /home/nbhak/Desktop/test_ws/src/test/srv/field_get_string.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/field_get_string.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/field_get_string.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Generating C++ code from test/field_get_string.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Generating C++ code from test/field_get_string.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/field_get_string.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/supervisor_set_label.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/supervisor_set_label.h: /home/nbhak/Desktop/test_ws/src/test/srv/supervisor_set_label.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/supervisor_set_label.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/supervisor_set_label.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Generating C++ code from test/supervisor_set_label.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Generating C++ code from test/supervisor_set_label.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/supervisor_set_label.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/field_get_rotation.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
@@ -485,7 +499,7 @@ test/CMakeFiles/test_generate_messages_cpp: /home/nbhak/Desktop/test_ws/devel/in
 /home/nbhak/Desktop/test_ws/devel/include/test/field_get_rotation.h: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
 /home/nbhak/Desktop/test_ws/devel/include/test/field_get_rotation.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/field_get_rotation.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Generating C++ code from test/field_get_rotation.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Generating C++ code from test/field_get_rotation.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/field_get_rotation.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/supervisor_virtual_reality_headset_get_orientation.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
@@ -493,70 +507,70 @@ test/CMakeFiles/test_generate_messages_cpp: /home/nbhak/Desktop/test_ws/devel/in
 /home/nbhak/Desktop/test_ws/devel/include/test/supervisor_virtual_reality_headset_get_orientation.h: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
 /home/nbhak/Desktop/test_ws/devel/include/test/supervisor_virtual_reality_headset_get_orientation.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/supervisor_virtual_reality_headset_get_orientation.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Generating C++ code from test/supervisor_virtual_reality_headset_get_orientation.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Generating C++ code from test/supervisor_virtual_reality_headset_get_orientation.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/supervisor_virtual_reality_headset_get_orientation.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/save_image.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/save_image.h: /home/nbhak/Desktop/test_ws/src/test/srv/save_image.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/save_image.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/save_image.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Generating C++ code from test/save_image.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Generating C++ code from test/save_image.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/save_image.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/field_set_string.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/field_set_string.h: /home/nbhak/Desktop/test_ws/src/test/srv/field_set_string.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/field_set_string.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/field_set_string.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Generating C++ code from test/field_set_string.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Generating C++ code from test/field_set_string.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/field_set_string.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/field_import_node.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/field_import_node.h: /home/nbhak/Desktop/test_ws/src/test/srv/field_import_node.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/field_import_node.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/field_import_node.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Generating C++ code from test/field_import_node.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Generating C++ code from test/field_import_node.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/field_import_node.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/get_float.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/get_float.h: /home/nbhak/Desktop/test_ws/src/test/srv/get_float.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/get_float.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/get_float.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Generating C++ code from test/get_float.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Generating C++ code from test/get_float.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/get_float.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/node_remove.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/node_remove.h: /home/nbhak/Desktop/test_ws/src/test/srv/node_remove.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/node_remove.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/node_remove.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Generating C++ code from test/node_remove.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Generating C++ code from test/node_remove.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/node_remove.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/get_urdf.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/get_urdf.h: /home/nbhak/Desktop/test_ws/src/test/srv/get_urdf.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/get_urdf.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/get_urdf.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Generating C++ code from test/get_urdf.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Generating C++ code from test/get_urdf.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/get_urdf.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/display_image_copy.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/display_image_copy.h: /home/nbhak/Desktop/test_ws/src/test/srv/display_image_copy.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/display_image_copy.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/display_image_copy.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Generating C++ code from test/display_image_copy.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Generating C++ code from test/display_image_copy.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/display_image_copy.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/pen_set_ink_color.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/pen_set_ink_color.h: /home/nbhak/Desktop/test_ws/src/test/srv/pen_set_ink_color.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/pen_set_ink_color.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/pen_set_ink_color.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Generating C++ code from test/pen_set_ink_color.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Generating C++ code from test/pen_set_ink_color.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/pen_set_ink_color.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/field_set_float.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/field_set_float.h: /home/nbhak/Desktop/test_ws/src/test/srv/field_set_float.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/field_set_float.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/field_set_float.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Generating C++ code from test/field_set_float.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Generating C++ code from test/field_set_float.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/field_set_float.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_position.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
@@ -564,7 +578,7 @@ test/CMakeFiles/test_generate_messages_cpp: /home/nbhak/Desktop/test_ws/devel/in
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_position.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_position.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_position.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Generating C++ code from test/node_get_position.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Generating C++ code from test/node_get_position.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/node_get_position.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/node_add_force_with_offset.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
@@ -572,35 +586,35 @@ test/CMakeFiles/test_generate_messages_cpp: /home/nbhak/Desktop/test_ws/devel/in
 /home/nbhak/Desktop/test_ws/devel/include/test/node_add_force_with_offset.h: /opt/ros/kinetic/share/geometry_msgs/msg/Vector3.msg
 /home/nbhak/Desktop/test_ws/devel/include/test/node_add_force_with_offset.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/node_add_force_with_offset.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Generating C++ code from test/node_add_force_with_offset.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Generating C++ code from test/node_add_force_with_offset.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/node_add_force_with_offset.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/display_image_delete.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/display_image_delete.h: /home/nbhak/Desktop/test_ws/src/test/srv/display_image_delete.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/display_image_delete.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/display_image_delete.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Generating C++ code from test/display_image_delete.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Generating C++ code from test/display_image_delete.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/display_image_delete.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/gps_decimal_degrees_to_degrees_minutes_seconds.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/gps_decimal_degrees_to_degrees_minutes_seconds.h: /home/nbhak/Desktop/test_ws/src/test/srv/gps_decimal_degrees_to_degrees_minutes_seconds.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/gps_decimal_degrees_to_degrees_minutes_seconds.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/gps_decimal_degrees_to_degrees_minutes_seconds.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Generating C++ code from test/gps_decimal_degrees_to_degrees_minutes_seconds.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Generating C++ code from test/gps_decimal_degrees_to_degrees_minutes_seconds.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/gps_decimal_degrees_to_degrees_minutes_seconds.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/supervisor_get_from_id.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/supervisor_get_from_id.h: /home/nbhak/Desktop/test_ws/src/test/srv/supervisor_get_from_id.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/supervisor_get_from_id.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/supervisor_get_from_id.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Generating C++ code from test/supervisor_get_from_id.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Generating C++ code from test/supervisor_get_from_id.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/supervisor_get_from_id.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_status.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_status.h: /home/nbhak/Desktop/test_ws/src/test/srv/node_get_status.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_status.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_status.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Generating C++ code from test/node_get_status.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Generating C++ code from test/node_get_status.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/node_get_status.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/field_get_color.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
@@ -608,7 +622,7 @@ test/CMakeFiles/test_generate_messages_cpp: /home/nbhak/Desktop/test_ws/devel/in
 /home/nbhak/Desktop/test_ws/devel/include/test/field_get_color.h: /opt/ros/kinetic/share/std_msgs/msg/ColorRGBA.msg
 /home/nbhak/Desktop/test_ws/devel/include/test/field_get_color.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/field_get_color.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Generating C++ code from test/field_get_color.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Generating C++ code from test/field_get_color.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/field_get_color.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/field_get_vec2f.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
@@ -616,7 +630,7 @@ test/CMakeFiles/test_generate_messages_cpp: /home/nbhak/Desktop/test_ws/devel/in
 /home/nbhak/Desktop/test_ws/devel/include/test/field_get_vec2f.h: /opt/ros/kinetic/share/geometry_msgs/msg/Vector3.msg
 /home/nbhak/Desktop/test_ws/devel/include/test/field_get_vec2f.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/field_get_vec2f.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Generating C++ code from test/field_get_vec2f.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Generating C++ code from test/field_get_vec2f.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/field_get_vec2f.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/skin_set_bone_orientation.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
@@ -624,28 +638,28 @@ test/CMakeFiles/test_generate_messages_cpp: /home/nbhak/Desktop/test_ws/devel/in
 /home/nbhak/Desktop/test_ws/devel/include/test/skin_set_bone_orientation.h: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
 /home/nbhak/Desktop/test_ws/devel/include/test/skin_set_bone_orientation.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/skin_set_bone_orientation.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Generating C++ code from test/skin_set_bone_orientation.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Generating C++ code from test/skin_set_bone_orientation.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/skin_set_bone_orientation.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/display_get_info.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/display_get_info.h: /home/nbhak/Desktop/test_ws/src/test/srv/display_get_info.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/display_get_info.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/display_get_info.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Generating C++ code from test/display_get_info.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Generating C++ code from test/display_get_info.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/display_get_info.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/field_get_node.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/field_get_node.h: /home/nbhak/Desktop/test_ws/src/test/srv/field_get_node.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/field_get_node.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/field_get_node.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Generating C++ code from test/field_get_node.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Generating C++ code from test/field_get_node.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/field_get_node.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/skin_get_bone_name.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/skin_get_bone_name.h: /home/nbhak/Desktop/test_ws/src/test/srv/skin_get_bone_name.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/skin_get_bone_name.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/skin_get_bone_name.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Generating C++ code from test/skin_get_bone_name.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Generating C++ code from test/skin_get_bone_name.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/skin_get_bone_name.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_orientation.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
@@ -653,63 +667,63 @@ test/CMakeFiles/test_generate_messages_cpp: /home/nbhak/Desktop/test_ws/devel/in
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_orientation.h: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_orientation.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_orientation.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Generating C++ code from test/node_get_orientation.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Generating C++ code from test/node_get_orientation.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/node_get_orientation.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/display_draw_pixel.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/display_draw_pixel.h: /home/nbhak/Desktop/test_ws/src/test/srv/display_draw_pixel.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/display_draw_pixel.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/display_draw_pixel.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Generating C++ code from test/display_draw_pixel.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Generating C++ code from test/display_draw_pixel.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/display_draw_pixel.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/speaker_play_sound.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/speaker_play_sound.h: /home/nbhak/Desktop/test_ws/src/test/srv/speaker_play_sound.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/speaker_play_sound.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/speaker_play_sound.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Generating C++ code from test/speaker_play_sound.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Generating C++ code from test/speaker_play_sound.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/speaker_play_sound.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/field_get_type_name.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/field_get_type_name.h: /home/nbhak/Desktop/test_ws/src/test/srv/field_get_type_name.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/field_get_type_name.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/field_get_type_name.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Generating C++ code from test/field_get_type_name.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Generating C++ code from test/field_get_type_name.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/field_get_type_name.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/lidar_get_frequency_info.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/lidar_get_frequency_info.h: /home/nbhak/Desktop/test_ws/src/test/srv/lidar_get_frequency_info.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/lidar_get_frequency_info.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/lidar_get_frequency_info.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Generating C++ code from test/lidar_get_frequency_info.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Generating C++ code from test/lidar_get_frequency_info.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/lidar_get_frequency_info.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/display_image_new.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/display_image_new.h: /home/nbhak/Desktop/test_ws/src/test/srv/display_image_new.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/display_image_new.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/display_image_new.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Generating C++ code from test/display_image_new.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Generating C++ code from test/display_image_new.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/display_image_new.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/display_draw_line.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/display_draw_line.h: /home/nbhak/Desktop/test_ws/src/test/srv/display_draw_line.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/display_draw_line.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/display_draw_line.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Generating C++ code from test/display_draw_line.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Generating C++ code from test/display_draw_line.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/display_draw_line.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_field.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_field.h: /home/nbhak/Desktop/test_ws/src/test/srv/node_get_field.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_field.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_field.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Generating C++ code from test/node_get_field.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Generating C++ code from test/node_get_field.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/node_get_field.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/speaker_is_sound_playing.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/speaker_is_sound_playing.h: /home/nbhak/Desktop/test_ws/src/test/srv/speaker_is_sound_playing.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/speaker_is_sound_playing.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/speaker_is_sound_playing.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Generating C++ code from test/speaker_is_sound_playing.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Generating C++ code from test/speaker_is_sound_playing.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/speaker_is_sound_playing.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/lidar_get_layer_range_image.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
@@ -718,14 +732,14 @@ test/CMakeFiles/test_generate_messages_cpp: /home/nbhak/Desktop/test_ws/devel/in
 /home/nbhak/Desktop/test_ws/devel/include/test/lidar_get_layer_range_image.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
 /home/nbhak/Desktop/test_ws/devel/include/test/lidar_get_layer_range_image.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/lidar_get_layer_range_image.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Generating C++ code from test/lidar_get_layer_range_image.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Generating C++ code from test/lidar_get_layer_range_image.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/lidar_get_layer_range_image.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/node_move_viewpoint.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/node_move_viewpoint.h: /home/nbhak/Desktop/test_ws/src/test/srv/node_move_viewpoint.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/node_move_viewpoint.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/node_move_viewpoint.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Generating C++ code from test/node_move_viewpoint.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Generating C++ code from test/node_move_viewpoint.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/node_move_viewpoint.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/field_set_rotation.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
@@ -733,42 +747,42 @@ test/CMakeFiles/test_generate_messages_cpp: /home/nbhak/Desktop/test_ws/devel/in
 /home/nbhak/Desktop/test_ws/devel/include/test/field_set_rotation.h: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
 /home/nbhak/Desktop/test_ws/devel/include/test/field_set_rotation.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/field_set_rotation.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Generating C++ code from test/field_set_rotation.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Generating C++ code from test/field_set_rotation.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/field_set_rotation.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/display_draw_polygon.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/display_draw_polygon.h: /home/nbhak/Desktop/test_ws/src/test/srv/display_draw_polygon.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/display_draw_polygon.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/display_draw_polygon.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Generating C++ code from test/display_draw_polygon.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Generating C++ code from test/display_draw_polygon.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/display_draw_polygon.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/get_string.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/get_string.h: /home/nbhak/Desktop/test_ws/src/test/srv/get_string.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/get_string.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/get_string.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Generating C++ code from test/get_string.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Generating C++ code from test/get_string.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/get_string.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/robot_get_device_list.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/robot_get_device_list.h: /home/nbhak/Desktop/test_ws/src/test/srv/robot_get_device_list.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/robot_get_device_list.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/robot_get_device_list.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Generating C++ code from test/robot_get_device_list.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Generating C++ code from test/robot_get_device_list.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/robot_get_device_list.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/get_bool.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/get_bool.h: /home/nbhak/Desktop/test_ws/src/test/srv/get_bool.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/get_bool.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/get_bool.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Generating C++ code from test/get_bool.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Generating C++ code from test/get_bool.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/get_bool.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/field_set_bool.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/field_set_bool.h: /home/nbhak/Desktop/test_ws/src/test/srv/field_set_bool.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/field_set_bool.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/field_set_bool.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Generating C++ code from test/field_set_bool.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Generating C++ code from test/field_set_bool.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/field_set_bool.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/node_set_velocity.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
@@ -777,35 +791,35 @@ test/CMakeFiles/test_generate_messages_cpp: /home/nbhak/Desktop/test_ws/devel/in
 /home/nbhak/Desktop/test_ws/devel/include/test/node_set_velocity.h: /opt/ros/kinetic/share/geometry_msgs/msg/Vector3.msg
 /home/nbhak/Desktop/test_ws/devel/include/test/node_set_velocity.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/node_set_velocity.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Generating C++ code from test/node_set_velocity.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Generating C++ code from test/node_set_velocity.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/node_set_velocity.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/field_get_count.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/field_get_count.h: /home/nbhak/Desktop/test_ws/src/test/srv/field_get_count.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/field_get_count.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/field_get_count.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Generating C++ code from test/field_get_count.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Generating C++ code from test/field_get_count.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/field_get_count.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_type.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_type.h: /home/nbhak/Desktop/test_ws/src/test/srv/node_get_type.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_type.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_type.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Generating C++ code from test/node_get_type.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Generating C++ code from test/node_get_type.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/node_get_type.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/range_finder_get_info.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/range_finder_get_info.h: /home/nbhak/Desktop/test_ws/src/test/srv/range_finder_get_info.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/range_finder_get_info.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/range_finder_get_info.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Generating C++ code from test/range_finder_get_info.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Generating C++ code from test/range_finder_get_info.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/range_finder_get_info.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/field_remove.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/field_remove.h: /home/nbhak/Desktop/test_ws/src/test/srv/field_remove.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/field_remove.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/field_remove.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Generating C++ code from test/field_remove.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Generating C++ code from test/field_remove.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/field_remove.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/field_set_vec2f.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
@@ -813,98 +827,98 @@ test/CMakeFiles/test_generate_messages_cpp: /home/nbhak/Desktop/test_ws/devel/in
 /home/nbhak/Desktop/test_ws/devel/include/test/field_set_vec2f.h: /opt/ros/kinetic/share/geometry_msgs/msg/Vector3.msg
 /home/nbhak/Desktop/test_ws/devel/include/test/field_set_vec2f.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/field_set_vec2f.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Generating C++ code from test/field_set_vec2f.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Generating C++ code from test/field_set_vec2f.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/field_set_vec2f.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/display_image_paste.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/display_image_paste.h: /home/nbhak/Desktop/test_ws/src/test/srv/display_image_paste.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/display_image_paste.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/display_image_paste.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Generating C++ code from test/display_image_paste.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Generating C++ code from test/display_image_paste.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/display_image_paste.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/supervisor_movie_start_recording.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/supervisor_movie_start_recording.h: /home/nbhak/Desktop/test_ws/src/test/srv/supervisor_movie_start_recording.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/supervisor_movie_start_recording.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/supervisor_movie_start_recording.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Generating C++ code from test/supervisor_movie_start_recording.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Generating C++ code from test/supervisor_movie_start_recording.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/supervisor_movie_start_recording.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/robot_set_mode.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/robot_set_mode.h: /home/nbhak/Desktop/test_ws/src/test/srv/robot_set_mode.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/robot_set_mode.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/robot_set_mode.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Generating C++ code from test/robot_set_mode.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Generating C++ code from test/robot_set_mode.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/robot_set_mode.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/display_image_save.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/display_image_save.h: /home/nbhak/Desktop/test_ws/src/test/srv/display_image_save.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/display_image_save.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/display_image_save.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Generating C++ code from test/display_image_save.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Generating C++ code from test/display_image_save.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/display_image_save.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/camera_get_focus_info.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/camera_get_focus_info.h: /home/nbhak/Desktop/test_ws/src/test/srv/camera_get_focus_info.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/camera_get_focus_info.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/camera_get_focus_info.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Generating C++ code from test/camera_get_focus_info.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Generating C++ code from test/camera_get_focus_info.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/camera_get_focus_info.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_static_balance.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_static_balance.h: /home/nbhak/Desktop/test_ws/src/test/srv/node_get_static_balance.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_static_balance.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_static_balance.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Generating C++ code from test/node_get_static_balance.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Generating C++ code from test/node_get_static_balance.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/node_get_static_balance.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/display_draw_text.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/display_draw_text.h: /home/nbhak/Desktop/test_ws/src/test/srv/display_draw_text.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/display_draw_text.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/display_draw_text.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Generating C++ code from test/display_draw_text.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Generating C++ code from test/display_draw_text.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/display_draw_text.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_name.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_name.h: /home/nbhak/Desktop/test_ws/src/test/srv/node_get_name.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_name.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_name.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Generating C++ code from test/node_get_name.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Generating C++ code from test/node_get_name.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/node_get_name.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/field_get_bool.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/field_get_bool.h: /home/nbhak/Desktop/test_ws/src/test/srv/field_get_bool.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/field_get_bool.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/field_get_bool.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Generating C++ code from test/field_get_bool.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Generating C++ code from test/field_get_bool.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/field_get_bool.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/supervisor_get_from_def.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/supervisor_get_from_def.h: /home/nbhak/Desktop/test_ws/src/test/srv/supervisor_get_from_def.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/supervisor_get_from_def.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/supervisor_get_from_def.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Generating C++ code from test/supervisor_get_from_def.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Generating C++ code from test/supervisor_get_from_def.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/supervisor_get_from_def.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/field_set_int32.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/field_set_int32.h: /home/nbhak/Desktop/test_ws/src/test/srv/field_set_int32.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/field_set_int32.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/field_set_int32.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Generating C++ code from test/field_set_int32.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Generating C++ code from test/field_set_int32.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/field_set_int32.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_parent_node.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_parent_node.h: /home/nbhak/Desktop/test_ws/src/test/srv/node_get_parent_node.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_parent_node.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/node_get_parent_node.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Generating C++ code from test/node_get_parent_node.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Generating C++ code from test/node_get_parent_node.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/node_get_parent_node.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/robot_wait_for_user_input_event.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/robot_wait_for_user_input_event.h: /home/nbhak/Desktop/test_ws/src/test/srv/robot_wait_for_user_input_event.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/robot_wait_for_user_input_event.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/robot_wait_for_user_input_event.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Generating C++ code from test/robot_wait_for_user_input_event.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Generating C++ code from test/robot_wait_for_user_input_event.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/robot_wait_for_user_input_event.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/node_add_force_or_torque.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
@@ -912,28 +926,28 @@ test/CMakeFiles/test_generate_messages_cpp: /home/nbhak/Desktop/test_ws/devel/in
 /home/nbhak/Desktop/test_ws/devel/include/test/node_add_force_or_torque.h: /opt/ros/kinetic/share/geometry_msgs/msg/Vector3.msg
 /home/nbhak/Desktop/test_ws/devel/include/test/node_add_force_or_torque.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/node_add_force_or_torque.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Generating C++ code from test/node_add_force_or_torque.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Generating C++ code from test/node_add_force_or_torque.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/node_add_force_or_torque.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/speaker_speak.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/speaker_speak.h: /home/nbhak/Desktop/test_ws/src/test/srv/speaker_speak.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/speaker_speak.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/speaker_speak.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Generating C++ code from test/speaker_speak.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Generating C++ code from test/speaker_speak.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/speaker_speak.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/field_get_type.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/field_get_type.h: /home/nbhak/Desktop/test_ws/src/test/srv/field_get_type.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/field_get_type.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/field_get_type.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Generating C++ code from test/field_get_type.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Generating C++ code from test/field_get_type.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/field_get_type.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/motor_set_control_pid.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/motor_set_control_pid.h: /home/nbhak/Desktop/test_ws/src/test/srv/motor_set_control_pid.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/motor_set_control_pid.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/motor_set_control_pid.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Generating C++ code from test/motor_set_control_pid.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Generating C++ code from test/motor_set_control_pid.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/motor_set_control_pid.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/skin_get_bone_position.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
@@ -941,23 +955,25 @@ test/CMakeFiles/test_generate_messages_cpp: /home/nbhak/Desktop/test_ws/devel/in
 /home/nbhak/Desktop/test_ws/devel/include/test/skin_get_bone_position.h: /opt/ros/kinetic/share/geometry_msgs/msg/Vector3.msg
 /home/nbhak/Desktop/test_ws/devel/include/test/skin_get_bone_position.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/skin_get_bone_position.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Generating C++ code from test/skin_get_bone_position.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Generating C++ code from test/skin_get_bone_position.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/skin_get_bone_position.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/nbhak/Desktop/test_ws/devel/include/test/node_set_visibility.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/nbhak/Desktop/test_ws/devel/include/test/node_set_visibility.h: /home/nbhak/Desktop/test_ws/src/test/srv/node_set_visibility.srv
 /home/nbhak/Desktop/test_ws/devel/include/test/node_set_visibility.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/nbhak/Desktop/test_ws/devel/include/test/node_set_visibility.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Generating C++ code from test/node_set_visibility.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nbhak/Desktop/test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Generating C++ code from test/node_set_visibility.srv"
 	cd /home/nbhak/Desktop/test_ws/src/test && /home/nbhak/Desktop/test_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nbhak/Desktop/test_ws/src/test/srv/node_set_visibility.srv -Itest:/home/nbhak/Desktop/test_ws/src/test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p test -o /home/nbhak/Desktop/test_ws/devel/include/test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 test_generate_messages_cpp: test/CMakeFiles/test_generate_messages_cpp
 test_generate_messages_cpp: /home/nbhak/Desktop/test_ws/devel/include/test/RadarTarget.h
+test_generate_messages_cpp: /home/nbhak/Desktop/test_ws/devel/include/test/MsgToCentre.h
 test_generate_messages_cpp: /home/nbhak/Desktop/test_ws/devel/include/test/RecognitionObject.h
 test_generate_messages_cpp: /home/nbhak/Desktop/test_ws/devel/include/test/Int8Stamped.h
 test_generate_messages_cpp: /home/nbhak/Desktop/test_ws/devel/include/test/Float64Stamped.h
 test_generate_messages_cpp: /home/nbhak/Desktop/test_ws/devel/include/test/StringStamped.h
 test_generate_messages_cpp: /home/nbhak/Desktop/test_ws/devel/include/test/BoolStamped.h
+test_generate_messages_cpp: /home/nbhak/Desktop/test_ws/devel/include/test/MsgToBot.h
 test_generate_messages_cpp: /home/nbhak/Desktop/test_ws/devel/include/test/Int32Stamped.h
 test_generate_messages_cpp: /home/nbhak/Desktop/test_ws/devel/include/test/skin_set_bone_position.h
 test_generate_messages_cpp: /home/nbhak/Desktop/test_ws/devel/include/test/field_remove_node.h

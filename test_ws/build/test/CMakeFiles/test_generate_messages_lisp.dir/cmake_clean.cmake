@@ -1,11 +1,13 @@
 file(REMOVE_RECURSE
   "CMakeFiles/test_generate_messages_lisp"
   "/home/nbhak/Desktop/test_ws/devel/share/common-lisp/ros/test/msg/RadarTarget.lisp"
+  "/home/nbhak/Desktop/test_ws/devel/share/common-lisp/ros/test/msg/MsgToCentre.lisp"
   "/home/nbhak/Desktop/test_ws/devel/share/common-lisp/ros/test/msg/RecognitionObject.lisp"
   "/home/nbhak/Desktop/test_ws/devel/share/common-lisp/ros/test/msg/Int8Stamped.lisp"
   "/home/nbhak/Desktop/test_ws/devel/share/common-lisp/ros/test/msg/Float64Stamped.lisp"
   "/home/nbhak/Desktop/test_ws/devel/share/common-lisp/ros/test/msg/StringStamped.lisp"
   "/home/nbhak/Desktop/test_ws/devel/share/common-lisp/ros/test/msg/BoolStamped.lisp"
+  "/home/nbhak/Desktop/test_ws/devel/share/common-lisp/ros/test/msg/MsgToBot.lisp"
   "/home/nbhak/Desktop/test_ws/devel/share/common-lisp/ros/test/msg/Int32Stamped.lisp"
   "/home/nbhak/Desktop/test_ws/devel/share/common-lisp/ros/test/srv/skin_set_bone_position.lisp"
   "/home/nbhak/Desktop/test_ws/devel/share/common-lisp/ros/test/srv/field_remove_node.lisp"

@@ -1,11 +1,13 @@
 file(REMOVE_RECURSE
   "CMakeFiles/test_generate_messages_py"
   "/home/nbhak/Desktop/test_ws/devel/lib/python2.7/dist-packages/test/msg/_RadarTarget.py"
+  "/home/nbhak/Desktop/test_ws/devel/lib/python2.7/dist-packages/test/msg/_MsgToCentre.py"
   "/home/nbhak/Desktop/test_ws/devel/lib/python2.7/dist-packages/test/msg/_RecognitionObject.py"
   "/home/nbhak/Desktop/test_ws/devel/lib/python2.7/dist-packages/test/msg/_Int8Stamped.py"
   "/home/nbhak/Desktop/test_ws/devel/lib/python2.7/dist-packages/test/msg/_Float64Stamped.py"
   "/home/nbhak/Desktop/test_ws/devel/lib/python2.7/dist-packages/test/msg/_StringStamped.py"
   "/home/nbhak/Desktop/test_ws/devel/lib/python2.7/dist-packages/test/msg/_BoolStamped.py"
+  "/home/nbhak/Desktop/test_ws/devel/lib/python2.7/dist-packages/test/msg/_MsgToBot.py"
   "/home/nbhak/Desktop/test_ws/devel/lib/python2.7/dist-packages/test/msg/_Int32Stamped.py"
   "/home/nbhak/Desktop/test_ws/devel/lib/python2.7/dist-packages/test/srv/_skin_set_bone_position.py"
   "/home/nbhak/Desktop/test_ws/devel/lib/python2.7/dist-packages/test/srv/_field_remove_node.py"
