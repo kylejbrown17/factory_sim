@@ -1,2 +1,2 @@
-# factory_sim
-Tools for simulating awesome autonomous factories 
+# test_ws
+Catkin workspace containing ROS package
