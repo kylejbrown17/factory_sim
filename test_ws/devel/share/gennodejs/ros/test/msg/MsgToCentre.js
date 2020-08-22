@@ -19,6 +19,7 @@ class MsgToCentre {
     if (initObj === null) {
       // initObj === null is a special case for deserialization where we don't initialize fields
       this.message = null;
+      this.node_name = null;
     }
     else {
       if (initObj.hasOwnProperty('message')) {
@@ -27,6 +28,12 @@ class MsgToCentre {
       else {
         this.message = '';
       }
+      if (initObj.hasOwnProperty('node_name')) {
+        this.node_name = initObj.node_name
+      }
+      else {
+        this.node_name = '';
+      }
     }
   }
 
@@ -34,6 +41,8 @@ class MsgToCentre {
     // Serializes a message object of type MsgToCentre
     // Serialize message field [message]
     bufferOffset = _serializer.string(obj.message, buffer, bufferOffset);
+    // Serialize message field [node_name]
+    bufferOffset = _serializer.string(obj.node_name, buffer, bufferOffset);
     return bufferOffset;
   }
 
@@ -43,13 +52,16 @@ class MsgToCentre {
     let data = new MsgToCentre(null);
     // Deserialize message field [message]
     data.message = _deserializer.string(buffer, bufferOffset);
+    // Deserialize message field [node_name]
+    data.node_name = _deserializer.string(buffer, bufferOffset);
     return data;
   }
 
   static getMessageSize(object) {
     let length = 0;
     length += object.message.length;
-    return length + 4;
+    length += object.node_name.length;
+    return length + 8;
   }
 
   static datatype() {
@@ -59,13 +71,14 @@ class MsgToCentre {
 
   static md5sum() {
     //Returns md5sum for a message object
-    return '5f003d6bcc824cbd51361d66d8e4f76c';
+    return 'b0ccaea06efd6bcc2e50f7ffe5beabc9';
   }
 
   static messageDefinition() {
     // Returns full string definition for message
     return `
     string message
+    string node_name
     `;
   }
 
@@ -80,6 +93,13 @@ class MsgToCentre {
     }
     else {
       resolved.message = ''
+    }
+
+    if (msg.node_name !== undefined) {
+      resolved.node_name = msg.node_name;
+    }
+    else {
+      resolved.node_name = ''
     }
 
     return resolved;

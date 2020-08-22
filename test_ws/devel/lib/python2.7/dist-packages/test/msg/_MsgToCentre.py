@@ -7,12 +7,13 @@ import struct
 
 
 class MsgToCentre(genpy.Message):
-  _md5sum = "5f003d6bcc824cbd51361d66d8e4f76c"
+  _md5sum = "b0ccaea06efd6bcc2e50f7ffe5beabc9"
   _type = "test/MsgToCentre"
   _has_header = False #flag to mark the presence of a Header object
-  _full_text = """string message"""
-  __slots__ = ['message']
-  _slot_types = ['string']
+  _full_text = """string message
+string node_name"""
+  __slots__ = ['message','node_name']
+  _slot_types = ['string','string']
 
   def __init__(self, *args, **kwds):
     """
@@ -22,7 +23,7 @@ class MsgToCentre(genpy.Message):
     changes.  You cannot mix in-order arguments and keyword arguments.
 
     The available fields are:
-       message
+       message,node_name
 
     :param args: complete set of field values, in .msg order
     :param kwds: use keyword arguments corresponding to message field names
@@ -33,8 +34,11 @@ class MsgToCentre(genpy.Message):
       #message fields cannot be None, assign default values for those that are
       if self.message is None:
         self.message = ''
+      if self.node_name is None:
+        self.node_name = ''
     else:
       self.message = ''
+      self.node_name = ''
 
   def _get_types(self):
     """
@@ -49,6 +53,12 @@ class MsgToCentre(genpy.Message):
     """
     try:
       _x = self.message
+      length = len(_x)
+      if python3 or type(_x) == unicode:
+        _x = _x.encode('utf-8')
+        length = len(_x)
+      buff.write(struct.pack('<I%ss'%length, length, _x))
+      _x = self.node_name
       length = len(_x)
       if python3 or type(_x) == unicode:
         _x = _x.encode('utf-8')
@@ -73,6 +83,15 @@ class MsgToCentre(genpy.Message):
         self.message = str[start:end].decode('utf-8')
       else:
         self.message = str[start:end]
+      start = end
+      end += 4
+      (length,) = _struct_I.unpack(str[start:end])
+      start = end
+      end += length
+      if python3:
+        self.node_name = str[start:end].decode('utf-8')
+      else:
+        self.node_name = str[start:end]
       return self
     except struct.error as e:
       raise genpy.DeserializationError(e) #most likely buffer underfill
@@ -86,6 +105,12 @@ class MsgToCentre(genpy.Message):
     """
     try:
       _x = self.message
+      length = len(_x)
+      if python3 or type(_x) == unicode:
+        _x = _x.encode('utf-8')
+        length = len(_x)
+      buff.write(struct.pack('<I%ss'%length, length, _x))
+      _x = self.node_name
       length = len(_x)
       if python3 or type(_x) == unicode:
         _x = _x.encode('utf-8')
@@ -111,6 +136,15 @@ class MsgToCentre(genpy.Message):
         self.message = str[start:end].decode('utf-8')
       else:
         self.message = str[start:end]
+      start = end
+      end += 4
+      (length,) = _struct_I.unpack(str[start:end])
+      start = end
+      end += length
+      if python3:
+        self.node_name = str[start:end].decode('utf-8')
+      else:
+        self.node_name = str[start:end]
       return self
     except struct.error as e:
       raise genpy.DeserializationError(e) #most likely buffer underfill

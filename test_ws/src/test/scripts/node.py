@@ -6,7 +6,7 @@ from std_msgs.msg import String
 
 def callback(data):
     global pub
-    rospy.loginfo(rospy.get_caller_id() + '\nReceived notification: %s', data.message)
+    rospy.loginfo(rospy.get_caller_id() + '\nReceived notification: %s', data.message + '\nNode name: ' + data.node_name + '\n')
     
     # Construct message to send to bot
     messageToBot = MsgToBot()

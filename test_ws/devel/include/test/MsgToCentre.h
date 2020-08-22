@@ -24,10 +24,12 @@ struct MsgToCentre_
   typedef MsgToCentre_<ContainerAllocator> Type;
 
   MsgToCentre_()
-    : message()  {
+    : message()
+    , node_name()  {
     }
   MsgToCentre_(const ContainerAllocator& _alloc)
-    : message(_alloc)  {
+    : message(_alloc)
+    , node_name(_alloc)  {
   (void)_alloc;
     }
 
@@ -35,6 +37,9 @@ struct MsgToCentre_
 
    typedef std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  _message_type;
   _message_type message;
+
+   typedef std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  _node_name_type;
+  _node_name_type node_name;
 
 
 
@@ -114,12 +119,12 @@ struct MD5Sum< ::test::MsgToCentre_<ContainerAllocator> >
 {
   static const char* value()
   {
-    return "5f003d6bcc824cbd51361d66d8e4f76c";
+    return "b0ccaea06efd6bcc2e50f7ffe5beabc9";
   }
 
   static const char* value(const ::test::MsgToCentre_<ContainerAllocator>&) { return value(); }
-  static const uint64_t static_value1 = 0x5f003d6bcc824cbdULL;
-  static const uint64_t static_value2 = 0x51361d66d8e4f76cULL;
+  static const uint64_t static_value1 = 0xb0ccaea06efd6bccULL;
+  static const uint64_t static_value2 = 0x2e50f7ffe5beabc9ULL;
 };
 
 template<class ContainerAllocator>
@@ -139,6 +144,7 @@ struct Definition< ::test::MsgToCentre_<ContainerAllocator> >
   static const char* value()
   {
     return "string message\n\
+string node_name\n\
 ";
   }
 
@@ -158,6 +164,7 @@ namespace serialization
     template<typename Stream, typename T> inline static void allInOne(Stream& stream, T m)
     {
       stream.next(m.message);
+      stream.next(m.node_name);
     }
 
     ROS_DECLARE_ALLINONE_SERIALIZER
@@ -178,6 +185,8 @@ struct Printer< ::test::MsgToCentre_<ContainerAllocator> >
   {
     s << indent << "message: ";
     Printer<std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > >::stream(s, indent + "  ", v.message);
+    s << indent << "node_name: ";
+    Printer<std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > >::stream(s, indent + "  ", v.node_name);
   }
 };
 

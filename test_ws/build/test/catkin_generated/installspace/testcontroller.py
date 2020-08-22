@@ -1,7 +1,6 @@
 #!/usr/bin/env python2
 
 # Webots controller
-
 import rospy
 # From package_name import message_type
 from test.msg import *
@@ -13,9 +12,12 @@ MAX_SPEED = 6.28
 
 # Receive via subscriber
 def callback(data):
+    global wait
+    wait = True
     global msgFromCentre
     msgFromCentre = data
-    msgFromCentre.message = 'Received message: ' + msgFromCentre.message
+    msgFromCentre.message = 'Received message: ' + data.message
+    wait = False
 
 robot = Robot()
 timeStep = int(robot.getBasicTimeStep())
@@ -29,6 +31,9 @@ right.setVelocity(0.1 * MAX_SPEED)
 # Custom message to be received by bot and printed
 msgFromCentre = None
 
+# msgFromCentre = None (in loop) runs after callback is completed: avoid race condition
+wait = True
+
 print(os.environ['ROS_MASTER_URI'])
 robot.step(timeStep)
 rospy.init_node('robot', anonymous=True)
@@ -40,6 +45,7 @@ print('Running the control loop')
 while robot.step(timeStep) != -1 and not rospy.is_shutdown():
     # Construct message to centre
     messageToCentre = MsgToCentre()
+    messageToCentre.node_name = rospy.get_name()
     messageToCentre.message = "Notification from bot"
     
     # Publish message to centre
@@ -50,6 +56,10 @@ while robot.step(timeStep) != -1 and not rospy.is_shutdown():
         # Print message
         print(msgFromCentre.message)
         # Set to null object
+
+        # Replace busy waiting with signal handling!!!!!
+        while wait:
+            continue
         msgFromCentre = None
 
 

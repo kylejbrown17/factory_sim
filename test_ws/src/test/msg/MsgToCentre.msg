@@ -1,1 +1,2 @@
 string message
+string node_name
