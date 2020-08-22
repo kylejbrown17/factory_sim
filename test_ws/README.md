@@ -16,4 +16,4 @@ Run individually to display communication between nodes:\
 roscore\
 Open world in Webots\
 python node.py\
-python testcontroller.py (in two separate windows)\
+python testcontroller.py (in two separate windows)
