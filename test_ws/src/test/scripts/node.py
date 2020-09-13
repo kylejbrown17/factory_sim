@@ -5,6 +5,9 @@ from test.msg import *
 from std_msgs.msg import String
 
 NUM_BOTS = 2
+if (rospy.has_param('/num_bots')):
+    print("\n" + str(NUM_BOTS) + "\n")
+    NUM_BOTS = int(rospy.get_param("/num_bots"))
 
 def publishMessage(botIDs):
     global pub
