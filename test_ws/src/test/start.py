@@ -26,8 +26,8 @@ launchStart = """<?xml version="1.0"?>
   <env name="PYTHONPATH" value="$(env PYTHONPATH):$(env WEBOTS_HOME)/lib/controller/python27" unless="$(eval '1' if env('ROS_DISTRO') == 'kinetic' else '0')" />
   <env name="PYTHONPATH" value="$(env PYTHONPATH):$(env WEBOTS_HOME)/lib/controller/python38" if="$(eval '1' if env('ROS_DISTRO') == 'kinetic' else '0')" />
 """
-
-launchEnd = """  <node name="centre" pkg="test" type="node.py" required="$(arg auto-close)"/>
+launchEnd = """ <param name="num_bots" type="int" value=""" + '"' + str(numBots) + '"/>\n'
+launchEnd += """  <node name="centre" pkg="test" type="node.py"/>
 </launch>
 """
 
